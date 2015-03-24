@@ -1,32 +1,11 @@
-# Overlay dirctory to look for themes. There you can put your own themes outside the repo. Fallback will still be the "themes" directory in the repo.
 export TMUX_POWERLINE_DIR_USER_THEMES="${HOME}/.tmux/powerline-themes"
 
-# How may hearts to show if cute indicators are used.
 export TMUX_POWERLINE_SEG_BATTERY_NUM_HEARTS="5"
 
 export TMUX_POWERLINE_SEG_DATE_FORMAT="%F"
-
-# Mailbox type to use. Can be any of {apple_mail, gmail, maildir, mbox, mailcheck}
-export TMUX_POWERLINE_SEG_MAILCOUNT_MAILBOX_TYPE=""
-# Enter your Gmail username here WITH OUT @gmail.com.( OR @domain)
-export TMUX_POWERLINE_SEG_MAILCOUNT_GMAIL_USERNAME=""
-# Google password. Recomenned to use application specific password (https://accounts.google.com/b/0/IssuedAuthSubTokens) Leave this empty to get password from OS X keychain.
-# For OSX users : MAKE SURE that you add a key to the keychain in the format as follows
-# Keychain Item name : http://<value-you-fill-in-server-variable-below>
-# Account name : <username-below>@<server-below>
-# Password : Your password ( Once again, try to use 2 step-verification and application-specific password)
-export TMUX_POWERLINE_SEG_MAILCOUNT_GMAIL_PASSWORD=""
-# Domain name that will complete your email. For normal GMail users it probably is "gmail.com but can be "foo.tld" for Google Apps users.
-export TMUX_POWERLINE_SEG_MAILCOUNT_GMAIL_SERVER="gmail.com"
-# How often in minutes to check for new mails.
-export TMUX_POWERLINE_SEG_MAILCOUNT_GMAIL_INTERVAL="5"
-
-export TMUX_POWERLINE_SEG_NOW_PLAYING_MUSIC_PLAYER="lastfm"
-export TMUX_POWERLINE_SEG_NOW_PLAYING_LASTFM_USERNAME="talmuth"
-export TMUX_POWERLINE_SEG_NOW_PLAYING_NOTE_CHAR="♪"
 
 export TMUX_POWERLINE_SEG_PWD_MAX_LEN="40"
 
 export TMUX_POWERLINE_SEG_TIME_FORMAT="%H:%M"
 
-export TMUX_POWERLINE_SEG_WEATHER_LOCATION="916350"
+export TMUX_POWERLINE_SEG_WEATHER_LOCATION="12797127"

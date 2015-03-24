@@ -30,9 +30,6 @@ fi
 
 if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS=(
-		#"earthquake 3 0" \
-		"pwd 89 211" \
-		"now_playing 234 37" \
 		"load 237 167" \
 		"battery 137 127" \
 		"date_day 235 136" \
