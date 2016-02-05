@@ -1,6 +1,6 @@
-[submodule "tmux-powerline"]
-    path = tmux-powerline
-    url = https://github.com/erikw/tmux-powerline.git
 [submodule "plugins/tpm"]
 	path = plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "tmux-powerline"]
+	path = tmux-powerline
+	url = git@github.com:talmuth/tmux-powerline.git
