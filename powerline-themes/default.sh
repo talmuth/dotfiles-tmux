@@ -23,7 +23,13 @@ TMUX_POWERLINE_DEFAULT_RIGHTSIDE_SEPARATOR=${TMUX_POWERLINE_DEFAULT_RIGHTSIDE_SE
 
 if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
   TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
+    "tmux_session_info 148 234 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD}" \" \
     "hostname 34 0 ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD}" \
+    #"vcs_branch 29 0" \
+    #"vcs_compare 60 255" \
+    #"vcs_staged 64 255" \
+    #"vcs_modified 9 255" \
+    #"vcs_others 245 0" \
   )
 fi
 
