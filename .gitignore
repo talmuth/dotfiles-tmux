@@ -1,2 +1,4 @@
-/sidebar
-/resurrect
+resurrect/*
+plugins/*
+sidebar/*
+tmuxline.conf
